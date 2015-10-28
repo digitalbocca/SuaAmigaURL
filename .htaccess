@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    #URL AMIGAVEL PASSANDO UM SLUG PARA A INDEX
+    RewriteRule ^([a-z0-9-]+)/?$ index.php?slug=$1 [NC]
+</IfModule>

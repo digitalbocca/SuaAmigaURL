@@ -2,7 +2,10 @@
     
     require_once 'config.php';
     
+    echo "<pre>";
+    echo "GET que foi recebido pela p&aacute;gina: ";
     var_dump($_GET['slug']);
+    echo "</pre>";
     
     if(isset($_GET['slug'])){
         /**
@@ -13,12 +16,12 @@
          * $removeBarra = new \EstudioDigitalBocca\URLAmigavel\RemovedorDeBarra($url);
          *
          * Para obter o valor correto e usar na sua pesquisa no banco de dados,
-         * basta usar o método:
+         * basta usar o mÃ©todo:
          * $url->obterValor();
          */
         
         /**
-         * Modelo de implementação
+         * Modelo de implementaÃ§Ã£o
          */
         
         $url = new \EstudioDigitalBocca\URLAmigavel\URLAmigavel($_GET['slug']);

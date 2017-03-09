@@ -33,14 +33,26 @@ class RemovedorDeBarra {
         }
     }
 
+    /**
+     * @todo Remover este metodo e fazer a atualização do valor diretamente no
+     * metodo construtor que recebe a instancia que implementa a interface AtualizaValor
+     */
     private function atualizaValor(AtualizarValor $objeto){
         $objeto->atualizarValor($this->valor);
     }
 
+    /**
+     *
+     * @todo Fazer uma trait neste método pois ele é usado em outra classe
+     */
     private function extraiUltimaPosicao(){
         $this->ultimaPosicao = substr($this->valor, -1);
     }
 
+    /**
+     *
+     * @todo Fazer uma trait neste método pois ele é usado em outra classe
+     */
     private function extraiPrimeiraPosicao(){
         $this->primeiraPosicao = substr($this->valor, 0, 1);
     }
@@ -61,7 +73,7 @@ class RemovedorDeBarra {
         $this->extraiUltimaPosicao();
         $this->extraiPrimeiraPosicao();
         $this->verificarBarraFinal();
-        $this->verificaBarraInicial();
+        $this->verificarBarraInicial();
         $this->atualizaValor($objeto);
     }
 }

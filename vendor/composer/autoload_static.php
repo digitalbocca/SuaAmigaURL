@@ -24,6 +24,7 @@ class ComposerStaticInit359aa1b28a829409f17726bdc65e2ad6
         'EstudioDigitalBocca\\URLAmigavel\\AtualizarValor' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/AtualizarValor.php',
         'EstudioDigitalBocca\\URLAmigavel\\ObterValor' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/ObterValor.php',
         'EstudioDigitalBocca\\URLAmigavel\\RemovedorDeBarra' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/RemovedorDeBarra.php',
+        'EstudioDigitalBocca\\URLAmigavel\\RemovedorDeNivel' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/RemovedorDeNivel.php',
         'EstudioDigitalBocca\\URLAmigavel\\URLAmigavel' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/URLAmigavel.php',
     );
 

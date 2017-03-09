@@ -1,8 +1,6 @@
 <?php
 
-    require_once 'config.php';
-
-    //echo phpinfo();
+    require_once 'vendor/autoload.php';
 
     echo $_SERVER['REQUEST_URI'];
 
@@ -22,14 +20,14 @@
          * $url->obterValor();
          */
 
-        $url = new \EstudioDigitalBocca\URLAmigavel\URLAmigavel($_GET['slug']);
+        $url = new EstudioDigitalBocca\URLAmigavel\URLAmigavel($_GET['slug']);
 
         echo "<pre>";
         echo "Valor Passado no Endere&ccedil;o: ";
         echo $url->obterValor();
         echo "</pre>";
 
-        $removeBarra = new \EstudioDigitalBocca\URLAmigavel\RemovedorDeBarra($url);
+        $removeBarra = new EstudioDigitalBocca\URLAmigavel\RemovedorDeBarra($url);
 
         echo "<pre>";
         echo "Valor Para a Pesquisa no Banco: ";

@@ -9,5 +9,6 @@ return array(
     'EstudioDigitalBocca\\URLAmigavel\\AtualizarValor' => $baseDir . '/EstudioDigitalBocca/URLAmigavel/AtualizarValor.php',
     'EstudioDigitalBocca\\URLAmigavel\\ObterValor' => $baseDir . '/EstudioDigitalBocca/URLAmigavel/ObterValor.php',
     'EstudioDigitalBocca\\URLAmigavel\\RemovedorDeBarra' => $baseDir . '/EstudioDigitalBocca/URLAmigavel/RemovedorDeBarra.php',
+    'EstudioDigitalBocca\\URLAmigavel\\RemovedorDeNivel' => $baseDir . '/EstudioDigitalBocca/URLAmigavel/RemovedorDeNivel.php',
     'EstudioDigitalBocca\\URLAmigavel\\URLAmigavel' => $baseDir . '/EstudioDigitalBocca/URLAmigavel/URLAmigavel.php',
 );

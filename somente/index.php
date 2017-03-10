@@ -14,7 +14,7 @@
         $semBarras = $url->obterValor();
 
         //REMOVENDO UM NÍVEL DA URI
-        $removeNivel = new EstudioDigitalBocca\URLAmigavel\RemovedorDeNivel($url,1);
+        $removeNivel = new EstudioDigitalBocca\URLAmigavel\RemovedorDeNivel($url,3);
 
         //VALOR DA URI COM OS NÍVEIS REMOVIDOS
         $nivelRemovido = $url->obterValor();
@@ -91,13 +91,15 @@ $url = new URLAmigavel($_SERVER[&apos;REQUEST_URI&apos;]);
                     <div class="alert alert-success" role="alert">
                         Resultado: <strong><?php echo $barraDeEndereco; ?></strong>
                     </div>
-                    <p>Neste exemplo precisei tirar um nivel da URI, então fiz a classe RemovedorDeNivel.</p>
+                    <p>Neste exemplo precisei tirar três niveis da URI, então fiz a classe RemovedorDeNivel.</p>
                     <pre><code class="language-php">//REMOVENDO UM N&Iacute;VEL DA URI
-$removeNivel = new RemovedorDeNivel($url,1);
+$removeNivel = new RemovedorDeNivel($url,3);
 </code></pre>
                     <div class="alert alert-success" role="alert">
-                        <strong>Resultado: </strong><?php echo $nivelRemovido; ?>
+                        Resultado: <strong><?php echo $nivelRemovido; ?></strong>
                     </div>
+                    <p><strong>DICA:</strong>Adicione alguma coisa depois do /somente/</p>
+                    <p><strong>EX:</strong>...somente/produtos/</p>
                 </div>
             </div>
             <div class="row edb-gradient-url fixed-bottom">

@@ -93,7 +93,10 @@ $url = new URLAmigavel($_GET[&apos;slug&apos;]);
                     <div class="alert alert-success" role="alert">
                         Resultado: <strong><?php echo $barraDeEndereco; ?></strong>
                     </div>
-                    <p>Agora é só usar onde quiser. Pode usar para fazer uma consulta no Banco de Dados por exemplo.</p>
+                    <p>Agora é só usar onde quiser.</p>
+                    <p>Pode usar esta string para fazer uma consulta no Banco de Dados por exemplo.</p>
+                    <p><strong>DICA:</strong>Adicione alguma coisa depois do /apache/</p>
+                    <p><strong>EX:</strong>...apache/produtos/</p>
                 </div>
             </div>
             <div class="row edb-gradient-url fixed-bottom">

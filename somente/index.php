@@ -10,9 +10,6 @@
         //VALOR DA URI NA BARRA DE ENDEREÇO
         $barraDeEndereco = $url->obterValor();
 
-        //REMOVE AS BARRAS INICIAL E FINAL DA URI
-        //$removeBarra = new EstudioDigitalBocca\URLAmigavel\RemovedorDeBarras($url);
-
         //VALOR DA URI SEM AS BARRAS INICIAL E FINAL
         $semBarras = $url->obterValor();
 
@@ -93,13 +90,6 @@ $url = new URLAmigavel($_SERVER[&apos;REQUEST_URI&apos;]);
 </code></pre>
                     <div class="alert alert-success" role="alert">
                         Resultado: <strong><?php echo $barraDeEndereco; ?></strong>
-                    </div>
-                    <p>Passo o Objeto URLAmigavel para o RemovedorDeBarra.</p>
-                    <pre><code class="language-php">//REMOVE AS BARRAS INICIAL E FINAL DA URI
-$removeBarra = new RemovedorDeBarra($url);
-</code></pre>
-                    <div class="alert alert-success" role="alert">
-                        <strong>Resultado: </strong><?php echo $semBarras; ?>
                     </div>
                     <p>Neste exemplo precisei tirar um nivel da URI, então fiz a classe RemovedorDeNivel.</p>
                     <pre><code class="language-php">//REMOVENDO UM N&Iacute;VEL DA URI

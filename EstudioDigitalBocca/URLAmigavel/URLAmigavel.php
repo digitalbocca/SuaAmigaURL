@@ -2,37 +2,51 @@
 
 namespace EstudioDigitalBocca\URLAmigavel;
 
+use EstudioDigitalBocca\URLAmigavel\Interfaces\URLAmigavelInterface;
+
 /**
+ * URLAmigavel.php
+ *
  * Constroi uma entidade que guarda a URL Amigavel
  *
  * @author Gabriel Bertola Bocca <gabriel at estudiodigitalbocca.com.br>
+ * @copyright (c) 2017, Estúdio Digital Bocca
+ * @since v0.12.0 EDB Framework
+ * @version v1.0.0
  */
-class URLAmigavel implements \EstudioDigitalBocca\URLAmigavel\ObterValor,
-                             \EstudioDigitalBocca\URLAmigavel\AtualizarValor {
-    
-    private $valor = '';
-    
+class URLAmigavel implements URLAmigavelInterface {
+
     /**
-     * 
-     * @param string $valorRecebido O valor da URLAmigavel
+     * Armazena o valor da URI
+     *
+     * @var string $valor
+     */
+    private $valor = '';
+
+    /**
+     * O valor da URI recebido.
+     *
+     * @param string $valorRecebido
      */
     public function __construct($valorRecebido){
         $this->valor = $valorRecebido;
     }
-    
+
     /**
-     * 
-     * @param string $valorRecebido O valor que vai ser atualizado
+     * Atualiza o valor da URI
+     *
+     * @param string $valorRecebido
      */
     public function atualizarValor($valorRecebido){
         $this->valor = $valorRecebido;
     }
-    
+
     /**
-     * 
-     * @return string O valor atual da URLAmigavel
+     * Retorna valor atual da URI.
+     *
+     * @return string
      */
     public function obterValor(){
-       return $this->valor; 
+       return $this->valor;
     }
 }

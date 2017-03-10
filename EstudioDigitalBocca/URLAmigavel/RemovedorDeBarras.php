@@ -10,16 +10,16 @@ use EstudioDigitalBocca\Traits\RemoveBarraFinal;
 use EstudioDigitalBocca\URLAmigavel\Interfaces\URLAmigavelInterface;
 
 /**
- * RemovedorDeNivel.php
+ * RemovedorDeBarras.php
  *
- * Remove o numero indicado de níveis da URI.
+ * Remove as barras inicial e final de uma URI
  *
  * @author Gabriel Bertola Bocca <gabriel at estudiodigitalbocca.com.br>
  * @copyright (c) 2017, Estúdio Digital Bocca
  * @since v0.12.0 EDB Framework
  * @version v1.0.0
  */
-class RemovedorDeNivel {
+class RemovedorDeBarras {
 
     /**
      * Recebe o valor da URI
@@ -47,32 +47,21 @@ class RemovedorDeNivel {
     use RemoveBarraFinal;
 
     /**
-     * Remove o número indicado de niveis da URI.
+     * Recebe um objeto que implementa a Interface ObterValor
+     * e remove a barra do início e do final da string obtida pelo metodo
+     * obterValor() quando houver necessidade.
      *
-     * @param int $quantidade A quantidade de níveis que serão extraidos.
-     * @return void
-     */
-    private function removeNivel($quantidade){
-        $niveis = explode("/", $this->valor);
-        $removeNivel = array_slice($niveis, $quantidade);
-        $this->valor = implode("/", $removeNivel);
-    }
-
-    /**
-     * Recebe um objeto que implementa a Interface ObterValor,
-     * remove a barra do início e do final da string obtida pelo metodo
-     * obterValor() quando houver necessidade e retira os níveis solicitados.
+     * Caso não haja necessidade a string do objeto permanece a mesma sem
+     * nenhum prejuizo e sem disparar nenhuma excessão.
      *
      * @see EstudioDigitalBocca\URLAmigavel\Interfaces\URLAmigavelInterface
      * @param object $objeto Objeto que implementa a Interface URLAmigavel
      * @return void
      */
-    public function __construct(URLAmigavelInterface $objeto, $quantidade){
+    public function __construct(URLAmigavelInterface $objeto){
         $this->valor = $objeto->obterValor();
         $this->valor = $this->removeBarraInicial($this->valor);
         $this->valor = $this->removeBarraFinal($this->valor);
-        $this->removeNivel($quantidade);
         $objeto->atualizarValor($this->valor);
     }
-
 }

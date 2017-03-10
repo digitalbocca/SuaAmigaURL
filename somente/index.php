@@ -4,15 +4,6 @@
 
     if(isset($_SERVER['REQUEST_URI'])){
 
-        /**
-         * Cria uma nova instancia da URLAmigavel
-         * $url = new \EstudioDigitalBocca\URLAmigavel\URLAmigavel($_GET['slug']);
-         *
-         * Para obter o valor correto e usar na sua pesquisa no banco de dados,
-         * basta usar o método:
-         * $url->obterValor();
-         */
-
         //CRIA UM OBJETO URLAmigavel
         $url = new EstudioDigitalBocca\URLAmigavel\URLAmigavel($_SERVER['REQUEST_URI']);
 
@@ -20,7 +11,7 @@
         $barraDeEndereco = $url->obterValor();
 
         //REMOVE AS BARRAS INICIAL E FINAL DA URI
-        $removeBarra = new EstudioDigitalBocca\URLAmigavel\RemovedorDeBarra($url);
+        //$removeBarra = new EstudioDigitalBocca\URLAmigavel\RemovedorDeBarras($url);
 
         //VALOR DA URI SEM AS BARRAS INICIAL E FINAL
         $semBarras = $url->obterValor();

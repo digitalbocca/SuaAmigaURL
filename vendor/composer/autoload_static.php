@@ -21,9 +21,14 @@ class ComposerStaticInit359aa1b28a829409f17726bdc65e2ad6
     );
 
     public static $classMap = array (
-        'EstudioDigitalBocca\\URLAmigavel\\AtualizarValor' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/AtualizarValor.php',
-        'EstudioDigitalBocca\\URLAmigavel\\ObterValor' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/ObterValor.php',
-        'EstudioDigitalBocca\\URLAmigavel\\RemovedorDeBarra' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/RemovedorDeBarra.php',
+        'EstudioDigitalBocca\\Traits\\ExtraiPrimeiraPosicao' => __DIR__ . '/../..' . '/EstudioDigitalBocca/Traits/ExtraiPrimeiraPosicao.php',
+        'EstudioDigitalBocca\\Traits\\ExtraiUltimaPosicao' => __DIR__ . '/../..' . '/EstudioDigitalBocca/Traits/ExtraiUltimaPosicao.php',
+        'EstudioDigitalBocca\\Traits\\RemoveBarraFinal' => __DIR__ . '/../..' . '/EstudioDigitalBocca/Traits/RemoveBarraFinal.php',
+        'EstudioDigitalBocca\\Traits\\RemoveBarraInicial' => __DIR__ . '/../..' . '/EstudioDigitalBocca/Traits/RemoveBarraInicial.php',
+        'EstudioDigitalBocca\\URLAmigavel\\Interfaces\\AtualizarValorInterface' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/Interfaces/AtualizarValorInterface.php',
+        'EstudioDigitalBocca\\URLAmigavel\\Interfaces\\ObterValorInterface' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/Interfaces/ObterValorInterface.php',
+        'EstudioDigitalBocca\\URLAmigavel\\Interfaces\\URLAmigavelInterface' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/Interfaces/URLAmigavelInterface.php',
+        'EstudioDigitalBocca\\URLAmigavel\\RemovedorDeBarras' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/RemovedorDeBarras.php',
         'EstudioDigitalBocca\\URLAmigavel\\RemovedorDeNivel' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/RemovedorDeNivel.php',
         'EstudioDigitalBocca\\URLAmigavel\\URLAmigavel' => __DIR__ . '/../..' . '/EstudioDigitalBocca/URLAmigavel/URLAmigavel.php',
     );

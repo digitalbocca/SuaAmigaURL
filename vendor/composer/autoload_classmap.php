@@ -6,14 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'EstudioDigitalBocca\\Traits\\ExtraiPrimeiraPosicao' => $baseDir . '/EstudioDigitalBocca/Traits/ExtraiPrimeiraPosicao.php',
-    'EstudioDigitalBocca\\Traits\\ExtraiUltimaPosicao' => $baseDir . '/EstudioDigitalBocca/Traits/ExtraiUltimaPosicao.php',
-    'EstudioDigitalBocca\\Traits\\RemoveBarraFinal' => $baseDir . '/EstudioDigitalBocca/Traits/RemoveBarraFinal.php',
-    'EstudioDigitalBocca\\Traits\\RemoveBarraInicial' => $baseDir . '/EstudioDigitalBocca/Traits/RemoveBarraInicial.php',
-    'EstudioDigitalBocca\\URLAmigavel\\Interfaces\\AtualizarValorInterface' => $baseDir . '/EstudioDigitalBocca/URLAmigavel/Interfaces/AtualizarValorInterface.php',
-    'EstudioDigitalBocca\\URLAmigavel\\Interfaces\\ObterValorInterface' => $baseDir . '/EstudioDigitalBocca/URLAmigavel/Interfaces/ObterValorInterface.php',
-    'EstudioDigitalBocca\\URLAmigavel\\Interfaces\\URLAmigavelInterface' => $baseDir . '/EstudioDigitalBocca/URLAmigavel/Interfaces/URLAmigavelInterface.php',
-    'EstudioDigitalBocca\\URLAmigavel\\RemovedorDeBarras' => $baseDir . '/EstudioDigitalBocca/URLAmigavel/RemovedorDeBarras.php',
-    'EstudioDigitalBocca\\URLAmigavel\\RemovedorDeNivel' => $baseDir . '/EstudioDigitalBocca/URLAmigavel/RemovedorDeNivel.php',
-    'EstudioDigitalBocca\\URLAmigavel\\URLAmigavel' => $baseDir . '/EstudioDigitalBocca/URLAmigavel/URLAmigavel.php',
 );

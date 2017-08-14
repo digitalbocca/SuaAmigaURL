@@ -1,5 +1,9 @@
 ## SuaAmigaURL ##
-## v2.7.3 ##
+## v2.8.0 ##
+
+**Mudanças na v2.8.0**
+
+- Atualização para Bootstrap 4 beta.
 
 **Mudanças na v2.7.3**
 

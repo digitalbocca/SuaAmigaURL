@@ -34,9 +34,11 @@ OU
 
 > Este código tem somente finalidade didática e não deve ser usado em produção.
 
-> O código php não segue nenhum padrão, servindo apenas para simular o funcionamento.
+> Os códigos não seguem nenhum padrão de codificação, servindo apenas para simular o funcionamento.
 
 > O objetivo é sugerir formas de entender a implementação de URL Amigavel em PHP.
+
+> Envie sua sugestão ou correção.
 
 > Obrigado.
 

@@ -1,9 +1,16 @@
 /**
- * (c)2017 - Estúdio Digital Bocca
- *
- * Paletas de Gradiente por: http://uigradients.com
- * GitHub Corners por: http://tholman.com/github-corners/
- */
+* (c)2017 - Estúdio Digital Bocca
+*
+* edb.css - Parte do Projeto digitalbocca/SuaAmigaURL
+* https://github.com/digitalbocca/SuaAmigaURL
+*
+* Exemplo: https://estudiodigitalbocca.com.br/labs/SuaAmigaURL
+*
+* Dependências:
+*
+* Paletas de Gradiente por: http://uigradients.com
+* GitHub Corners por: http://tholman.com/github-corners/
+*/
 
 html,body{
   height: 100%;

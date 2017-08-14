@@ -26,20 +26,19 @@
 <!DOCTYPE html>
 
 <!--
-
-Para este exemplo estou usando:
-
-Bootstrap 4.0.0-alpha.6 (Apenas o CSS Minificado)
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
-    crossorigin="anonymous"
-
-Paletas de Gradiente:
-    http://uigradients.com
-
-GitHub Corners:
-    http://tholman.com/github-corners/
-
+  /**
+  * (c)2017 - Estúdio Digital Bocca
+  *
+  * index.php - Parte do Projeto digitalbocca/SuaAmigaURL
+  * https://github.com/digitalbocca/SuaAmigaURL
+  *
+  * Exemplo: https://estudiodigitalbocca.com.br/labs/SuaAmigaURL
+  *
+  * Dependências:
+  *
+  * Paletas de Gradiente por: http://uigradients.com
+  * GitHub Corners por: http://tholman.com/github-corners/
+  */
 -->
 
 <html lang="pt-br">
@@ -49,8 +48,7 @@ GitHub Corners:
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>SuaAmigaURL</title>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <!-- Fonte Denk One - Google Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">    <!-- Fonte Denk One - Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Denk+One" rel="stylesheet">
     <link rel="stylesheet" href="../css/edb.css">
   </head>

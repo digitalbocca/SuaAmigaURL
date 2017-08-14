@@ -1,5 +1,13 @@
 ## SuaAmigaURL ##
-## v2.7.0 ##
+## v2.7.2 ##
+
+**Mudanças na v2.7.2**
+
+- composer.phar removido do .gitignore.
+
+**Mudanças na v2.7.1**
+
+- Gerado composer.lock.
 
 **Mudanças na v2.7.0**
 

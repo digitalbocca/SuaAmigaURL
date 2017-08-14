@@ -1,5 +1,9 @@
 ## SuaAmigaURL ##
-## v2.7.2 ##
+## v2.7.3 ##
+
+**Mudanças na v2.7.3**
+
+- Removido composer.phar.
 
 **Mudanças na v2.7.2**
 

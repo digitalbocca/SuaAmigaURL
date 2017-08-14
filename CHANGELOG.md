@@ -1,5 +1,9 @@
 ## SuaAmigaURL ##
-## v2.6.0 ##
+## v2.7.0 ##
+
+**Mudanças na v2.7.0**
+
+- Preparado para Deploy no Heroku.
 
 **Mudanças na v2.6.0**
 

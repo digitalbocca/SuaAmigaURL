@@ -29,6 +29,7 @@
   *
   * Paletas de Gradiente por: http://uigradients.com
   * GitHub Corners por: http://tholman.com/github-corners/
+  * jQuery: https://jquery.com
   */
 -->
 

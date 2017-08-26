@@ -1,5 +1,11 @@
 ## SuaAmigaURL ##
-## v2.8.0 ##
+## v3.0.0 ##
+
+> Este repositório não será mais atualizado.
+
+**Mudanças na v3.0.0**
+
+- Movido para o Arquivo em 25/08/2017.
 
 **Mudanças na v2.8.0**
 

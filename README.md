@@ -1,4 +1,6 @@
-# SuaAmigaURL #
+# LEGADO - SuaAmigaURL #
+
+> Este repositório não será mais atualizado.
 
 Implementa uma URL Amigável em PHP ou usando PHP e servidor Apache com arquivo .htaccess
 
